@@ -1,4 +1,4 @@
-package org.example;
+package org.example.structural.decorator;
 
 public class Leader extends EmployeeDecorator{
 
