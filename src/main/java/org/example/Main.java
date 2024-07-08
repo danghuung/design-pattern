@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.creational.singleton.Singleton;
 import org.example.structural.decorator.Employee;
 import org.example.structural.decorator.IEmployee;
 import org.example.structural.decorator.Leader;
@@ -19,5 +20,8 @@ public class Main {
 //        System.out.println("=== Project Manager ===");
 //        IEmployee manager = new ProjectManager(leader);
 //        manager.doTask();
+
+        /* Singleton Pattern */
+        Singleton.getInstance().singletonSayHi();
     }
 }
